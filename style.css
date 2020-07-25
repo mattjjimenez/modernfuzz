@@ -1,0 +1,159 @@
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+ /*No media query for `xs` since this is the default in Bootstrap*/
+
+.mflogo {
+	color: hsl(15,0%,30%);
+	font-family: 'Helvetica', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.mflogo-color {
+	color: hsl(15,70%,55%);
+}
+
+.section-font {
+	color: hsl(15,0%,45%);
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 2.4rem;
+	word-wrap: break-word;
+}
+
+div.big-picture {
+	width: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+div.big-picture-home {
+	height: calc(100vh - 140px);
+	background-position: bottom;
+	background-image: url('images/background3.jpg');
+	background-size: 1200px;
+}
+
+div.big-picture-transition {
+	height: calc(100vh - 60px);
+	background-position: bottom;
+	background-image: url('images/background4-crop.jpg');
+}
+
+div.big-picture-end {
+	height: calc(100vh - 60px);
+	background-position: center;
+	background-image: url('images/background5bw-crop.jpg');
+}
+
+img.credit-logo {
+	height: 100px;
+	padding: 10px;
+}
+
+.nav-link {
+	font-size: 1.3em !important;
+}
+
+.nav-item {
+	padding-left: 25px;
+}
+
+.footertext {
+	color: hsl(0, 0%, 65%);
+}
+
+.contactbox {
+	border-radius: 4px;
+	background-color: hsla(0, 0%, 100%, 0.8);
+}
+
+div.social {
+	padding-top: 25px;
+}
+
+div.social span a {
+	color: hsl(0, 0%, 50%);
+}
+
+div.social span a:hover {
+	color: hsl(15,70%,55%);
+}
+
+div.card {
+ 	border-width: 0px !important;
+	border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+}
+
+img.card-img-top {
+	border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+	.section-font {
+		font-size: 4rem;
+		letter-spacing: 7px;
+	}
+
+	div.about-me-picture {
+		background-image: url('images/mike.png');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		min-height: 300px;
+		border-radius: 15px 0px 0px 15px;
+		-webkit-border-radius: 25px 0px 0px 25px;
+		-moz-border-radius: 15px 0px 0px 15px;
+		border: 1px solid #555;
+	}
+
+	div.about-me-content {
+		border-radius: 0px 15px 15px 0px;
+		-webkit-border-radius: 0px 25px 25px 0px;
+		-moz-border-radius: 0px 15px 15px 0px;
+		border: 1px solid #555;
+		border-left: 0px;
+	}
+
+	div.card {
+		border-width: 1px !important;
+		border-radius: 20px !important;
+		-webkit-border-radius: 20px !important;
+		-moz-border-radius: 20px !important;
+	}
+
+	img.card-img-top {
+		border-radius: 20px 20px 0px 0px !important;
+		-webkit-border-radius: 20px 20px 0px 0px !important;
+		-moz-border-radius: 20px 20px 0px 0px !important;
+
+	}
+
+	div.big-picture {
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	div.big-picture-home {
+	height: calc(100vh - 60px);
+	}
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
