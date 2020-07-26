@@ -10,7 +10,7 @@
 }
 
 .mflogo-color {
-	color: hsl(15,70%,55%);
+	color: hsl(15,70%,55%) !important;
 }
 
 .section-font {
@@ -30,7 +30,7 @@ div.big-picture {
 }
 
 div.big-picture-home {
-	height: calc(100vh - 140px);
+	height: calc(100vh - 1400px);
 	background-position: bottom;
 	background-image: url('images/background3.jpg');
 	background-size: 1200px;
@@ -46,6 +46,8 @@ div.big-picture-end {
 	height: calc(100vh - 60px);
 	background-position: center;
 	background-image: url('images/background5bw-crop.jpg');
+	display: flex;
+	align-items: center;
 }
 
 img.credit-logo {
@@ -66,8 +68,9 @@ img.credit-logo {
 }
 
 .contactbox {
-	border-radius: 4px;
-	background-color: hsla(0, 0%, 100%, 0.8);
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
 }
 
 div.social {
